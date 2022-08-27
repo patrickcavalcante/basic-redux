@@ -1,6 +1,14 @@
-import { render } from '@testing-library/react';
-import App from './App';
+import { render } from '@testing-library/react'
+import App from './App'
+import { Provider } from 'react-redux'
+import storeConfig from './store/storeConfig'
+
+const store = storeConfig()
 
 test('renders learn react link', () => {
-  render(<App />);
-});
+  render(
+    <Provider store={store}>
+      <App />
+    </Provider>
+  )
+})

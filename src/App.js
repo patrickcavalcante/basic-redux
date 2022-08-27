@@ -1,8 +1,8 @@
 import './App.css'
 import Intervalo from './components/Intervalo'
-import Media from './components/Media'
-import Soma from './components/Soma'
-import Sorteio from './components/Sorteio'
+import Mean from './components/Mean'
+import Sum from './components/Sum'
+import Randon from './components/Randon'
 
 function App () {
   return (
@@ -12,9 +12,9 @@ function App () {
         <Intervalo />
       </div>
       <div className='linha'>
-        <Media />
-        <Soma />
-        <Sorteio />
+        <Mean />
+        <Sum />
+        <Randon />
       </div>
     </div>
   )
