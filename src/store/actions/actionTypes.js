@@ -1,0 +1,2 @@
+export const NUN_MIN_CHANGED = 'NUN_MIN_CHANGED'
+export const NUN_MAX_CHANGED = 'NUN_MAX_CHANGED'
