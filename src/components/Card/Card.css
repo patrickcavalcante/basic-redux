@@ -13,10 +13,12 @@
 .Card .Header .Title {
   flex: 1;
   padding: 5px;
+  font-size: 24px;
 }
 
 .Card .Content {
   padding: 20px; 
+  font-size: 24px;
 }
 
 .Card.Red .Header { color: #fff; background-color: #c62828; }
