@@ -1,0 +1,10 @@
+.Intervalo input {
+  font-size: 1.8rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  width: 180px;
+}

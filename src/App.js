@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Card from './components/Card'
+import Intervalo from './components/Intervalo'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1>Exercício React Redux (Simples)</h1>
+      <div className='linha'>
+        <Intervalo />
+      </div>
+      <div className='linha'>
+        <Card title='Titulo 2' green>
+          Y
+        </Card>
+        <Card title='Titulo 3' blue>
+          A
+        </Card>
+        <Card title='Titulo 4' purple>
+          B
+        </Card>
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
