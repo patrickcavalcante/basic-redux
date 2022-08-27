@@ -1,5 +1,5 @@
 import './App.css'
-import Intervalo from './components/Intervalo'
+import Interval from './components/Interval'
 import Mean from './components/Mean'
 import Sum from './components/Sum'
 import Randon from './components/Randon'
@@ -9,7 +9,7 @@ function App () {
     <div className='App'>
       <h1>Exercício React Redux (Simples)</h1>
       <div className='linha'>
-        <Intervalo />
+        <Interval />
       </div>
       <div className='linha'>
         <Mean />

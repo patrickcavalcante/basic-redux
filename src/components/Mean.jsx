@@ -19,8 +19,8 @@ const Media = props => {
 
 const mapStateToProps = state => {
   return {
-    min: state.numeros.min,
-    max: state.numeros.max
+    min: state.numbers.min,
+    max: state.numbers.max
   }
 }
 
